@@ -1,0 +1,13 @@
+EXECUTION:
+
+For different holding temperature and initial temperature in input file, pd_params.py needs to be executed once. It reads the file ternary.inp. And fits the function mimicking ideal solution model. After fitting, it defines the tie line and writes equilibrium composition of both elements in both phases. It also chooses equilibrium accordingly i.e NPLE or Ortho under local equilibrium. In other file constants.inp, it writes out the vallues of constants used to fit the free energy.
+
+python run.py - it compiles all the source file to give an executable PHASEFIELD, which can be  executed as ./PHASEFIELD.
+
+
+OUTPUT : - 
+Similar to binary files
+
+average_output.txt - contains time, volume fraction, compostion of elements at per, composition of elements in wt per,avg composition of element. It can be checked in visual.c
+
+SCALING : all the length and time values can be seen in the code. Scaling values are also mentioned at the starting of the code while initialization and allocation.  

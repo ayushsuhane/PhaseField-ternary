@@ -1,0 +1,14 @@
+#Fe-C-Mn
+#alpha
+#FeFe FeC FeMn
+#CFe   CC CMn
+#MnFe MnC MnMn
+1.0 0.0
+0.0 0.1
+#gamma
+1.0 0.0
+0.0 0.1
+#pearlite
+#0.0 0.0 0.0 
+#0.0 0.0 0.0
+#0.0 0.0 0.0

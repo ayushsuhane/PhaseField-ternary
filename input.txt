@@ -1,0 +1,54 @@
+#Number of Components(Fe,C,Mn)
+3
+#Number of Phases(austenite,pearlite,ferrite)
+2
+#Molecular Names and Molecular Weights
+C 12.0
+Mn 55.0
+Fe 56.0
+#Bulk Composition
+C 0.12
+Mn 1.30
+Fe 98.58
+#Heating Rate
+2.0
+#initial Temperature
+960.0
+#Holding Temperature
+940.0
+#Time(sec) 
+10.8
+#Rve dimensions 
+200
+5
+#Total Grains
+40
+#Volume fraction pearlite
+0.00
+#Number of seeds austenite
+15
+#Number of seeds ferrite
+0
+#Aspect ratio
+1.0
+#Ncut
+3
+#Molar Volume
+7.1e-6
+#Epsilon
+100.0
+#Strain energy
+1.0 
+#surface energy
+1.01
+#Max Diffusivity
+1.0e-13
+#Seed
+546454
+#flag  
+1
+#segregation initial low
+0.12 1.3 98.58 'g'
+0.12 2.9 96.98 'g'
+#Eutectoid Temperature
+#1000.0
